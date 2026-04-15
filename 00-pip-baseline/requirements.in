@@ -1,0 +1,4 @@
+flask @ https://github.com/pallets/flask/archive/7ef2946fb5151b745df30201b8c27790cac53875.tar.gz
+httpx @ https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz
+click==8.3.1
+dockerfile-parse @ https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz  --hash=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d

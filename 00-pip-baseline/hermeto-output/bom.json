@@ -1,0 +1,446 @@
+{
+  "bomFormat": "CycloneDX",
+  "annotations": [
+    {
+      "subjects": [
+        "pkg:pypi/anyio@4.13.0",
+        "pkg:pypi/blinker@1.9.0",
+        "pkg:pypi/calver@2025.10.20",
+        "pkg:pypi/certifi@2026.2.25",
+        "pkg:pypi/click@8.3.1",
+        "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+        "pkg:pypi/flask?checksum=sha256:b0d86b0c3043cc0193b9ed05346f08eb8d078ceb913be2cbd50213e92a40f817&download_url=https://github.com/pallets/flask/archive/7ef2946fb5151b745df30201b8c27790cac53875.tar.gz",
+        "pkg:pypi/flit-core@3.12.0",
+        "pkg:pypi/h11@0.16.0",
+        "pkg:pypi/hatch-fancy-pypi-readme@25.1.0",
+        "pkg:pypi/hatchling@1.29.0",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/httpx?checksum=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc&download_url=https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz",
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/itsdangerous@2.2.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/packaging@26.0",
+        "pkg:pypi/pathspec@1.0.4",
+        "pkg:pypi/pluggy@1.6.0",
+        "pkg:pypi/setuptools-scm@10.0.5",
+        "pkg:pypi/setuptools@82.0.1",
+        "pkg:pypi/trove-classifiers@2026.1.14.14",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/uv-demos?vcs_url=git%2Bhttps://github.com/placeholder/uv-demos.git%40178bc92eeb6a2d20a9f6bc1fcb80cc86ee3b79be",
+        "pkg:pypi/vcs-versioning@1.1.1",
+        "pkg:pypi/werkzeug@3.1.8"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "red hat"
+        }
+      },
+      "timestamp": "2026-04-13T10:38:00Z",
+      "text": "hermeto:backend:pip"
+    }
+  ],
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/anyio@4.13.0",
+      "name": "anyio",
+      "purl": "pkg:pypi/anyio@4.13.0",
+      "version": "4.13.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/blinker@1.9.0",
+      "name": "blinker",
+      "purl": "pkg:pypi/blinker@1.9.0",
+      "version": "1.9.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/calver@2025.10.20",
+      "name": "calver",
+      "purl": "pkg:pypi/calver@2025.10.20",
+      "version": "2025.10.20",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2026.2.25",
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.2.25",
+      "version": "2026.2.25",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.3.1",
+      "name": "click",
+      "purl": "pkg:pypi/click@8.3.1",
+      "version": "8.3.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+      "name": "dockerfile-parse",
+      "purl": "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/flask?checksum=sha256:b0d86b0c3043cc0193b9ed05346f08eb8d078ceb913be2cbd50213e92a40f817&download_url=https://github.com/pallets/flask/archive/7ef2946fb5151b745df30201b8c27790cac53875.tar.gz",
+      "name": "flask",
+      "purl": "pkg:pypi/flask?checksum=sha256:b0d86b0c3043cc0193b9ed05346f08eb8d078ceb913be2cbd50213e92a40f817&download_url=https://github.com/pallets/flask/archive/7ef2946fb5151b745df30201b8c27790cac53875.tar.gz",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/flit-core@3.12.0",
+      "name": "flit-core",
+      "purl": "pkg:pypi/flit-core@3.12.0",
+      "version": "3.12.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "name": "h11",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "version": "0.16.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/hatch-fancy-pypi-readme@25.1.0",
+      "name": "hatch-fancy-pypi-readme",
+      "purl": "pkg:pypi/hatch-fancy-pypi-readme@25.1.0",
+      "version": "25.1.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/hatchling@1.29.0",
+      "name": "hatchling",
+      "purl": "pkg:pypi/hatchling@1.29.0",
+      "version": "1.29.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/httpcore@1.0.9",
+      "name": "httpcore",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "version": "1.0.9",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/httpx?checksum=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc&download_url=https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz",
+      "name": "httpx",
+      "purl": "pkg:pypi/httpx?checksum=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc&download_url=https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.11",
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.11",
+      "version": "3.11",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+      "name": "itsdangerous",
+      "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "version": "2.2.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@3.1.6",
+      "name": "jinja2",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "version": "3.1.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@3.0.3",
+      "name": "markupsafe",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "version": "3.0.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/packaging@26.0",
+      "name": "packaging",
+      "purl": "pkg:pypi/packaging@26.0",
+      "version": "26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/pathspec@1.0.4",
+      "name": "pathspec",
+      "purl": "pkg:pypi/pathspec@1.0.4",
+      "version": "1.0.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/pluggy@1.6.0",
+      "name": "pluggy",
+      "purl": "pkg:pypi/pluggy@1.6.0",
+      "version": "1.6.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/setuptools-scm@10.0.5",
+      "name": "setuptools-scm",
+      "purl": "pkg:pypi/setuptools-scm@10.0.5",
+      "version": "10.0.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/setuptools@82.0.1",
+      "name": "setuptools",
+      "purl": "pkg:pypi/setuptools@82.0.1",
+      "version": "82.0.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/trove-classifiers@2026.1.14.14",
+      "name": "trove-classifiers",
+      "purl": "pkg:pypi/trove-classifiers@2026.1.14.14",
+      "version": "2026.1.14.14",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0",
+      "name": "typing-extensions",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "version": "4.15.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/uv-demos?vcs_url=git%2Bhttps://github.com/placeholder/uv-demos.git%40178bc92eeb6a2d20a9f6bc1fcb80cc86ee3b79be",
+      "name": "uv-demos",
+      "purl": "pkg:pypi/uv-demos?vcs_url=git%2Bhttps://github.com/placeholder/uv-demos.git%40178bc92eeb6a2d20a9f6bc1fcb80cc86ee3b79be",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/vcs-versioning@1.1.1",
+      "name": "vcs-versioning",
+      "purl": "pkg:pypi/vcs-versioning@1.1.1",
+      "version": "1.1.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:pip:package:build-dependency",
+          "value": "true"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@3.1.8",
+      "name": "werkzeug",
+      "purl": "pkg:pypi/werkzeug@3.1.8",
+      "version": "3.1.8",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    }
+  ],
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "red hat",
+        "name": "hermeto"
+      }
+    ]
+  },
+  "specVersion": "1.6",
+  "version": 1
+}
