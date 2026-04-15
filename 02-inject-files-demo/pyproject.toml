@@ -1,0 +1,20 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "httpx",
+    "click",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sample_project"]
+
+[tool.uv.sources]
+flask = { path = "/tmp/hermeto-output/deps/uv/flask-gitcommit-7ef2946f.tar.gz" }
+httpx = { path = "/tmp/hermeto-output/deps/uv/httpx-0.28.1.tar.gz" }

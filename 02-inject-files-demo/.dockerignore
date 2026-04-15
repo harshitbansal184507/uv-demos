@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+.python-version
+uv.lock
+output
+hermeto.env
+requirements.txt
+requirements-build.txt

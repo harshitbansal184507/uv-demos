@@ -1,0 +1,21 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click==8.3.1",
+    "flask",
+    "httpx",
+]
+
+[tool.uv.sources]
+httpx = { url = "https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz" }
+flask = { git = "https://github.com/pallets/flask", rev = "7ef2946fb5151b745df30201b8c27790cac53875" }
+
+[tool.uv]
+find-links = ["./output/deps/uv"]
+offline = true
+no-index = true
+no-cache = true

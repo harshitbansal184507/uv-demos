@@ -1,0 +1,15 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click==8.3.1",
+]
+
+[tool.uv]
+find-links = ["./output/deps/uv"]
+offline = true
+no-index = true
+no-cache = true
